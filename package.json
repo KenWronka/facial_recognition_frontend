@@ -24,7 +24,9 @@
     "eject": "react-scripts eject",
     "dev": "concurrently \"cd smart-brain-api && npm run start\" \"npm run start\"",
     "server": "cd smart-brain-api && npm run start",
-    "heroku-postbuild": "cd smart-brain-api && npm install && npm run start"
+    "heroku-postbuild": "cd smart-brain-api && npm install && npm run start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "homepage": "https://kenwronka.github.io/facial_recognition_frontend/"
 }
