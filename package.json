@@ -26,7 +26,7 @@
     "server": "cd smart-brain-api && npm run start",
     "heroku-postbuild": "cd smart-brain-api && npm install && npm run start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
