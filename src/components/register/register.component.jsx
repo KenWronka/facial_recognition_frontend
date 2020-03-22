@@ -93,7 +93,7 @@ class Register extends React.Component {
               <input
                 className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
                 type="submit"
-                value="Sign Up"
+                value="Sign Up Now"
                 onClick={this.onSubmitRegister}
               />
             </div>
